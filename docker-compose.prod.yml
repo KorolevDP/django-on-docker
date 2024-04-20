@@ -5,7 +5,13 @@ services:
     build:
       context: ./app
       dockerfile: Dockerfile.prod
-    command: gunicorn hello_django.wsgi:application --bind 0.0.0.0:8000
+    command: >
+      sh -c "python manage.py makemigrations
+      && python manage.py migrate
+      && python manage.py collectstatic --no-input --clear
+      && python manage.py createsuperuser --no-input
+      && python manage.py runserver 0.0.0.0:8000"
+      # gunicorn hello_django.wsgi:application --bind 0.0.0.0:8000
     volumes:
       - static_volume:/home/app/web/staticfiles
       - media_volume:/home/app/web/mediafiles  
