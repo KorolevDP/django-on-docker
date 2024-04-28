@@ -27,26 +27,26 @@
 
 Переходим по ссылке http://localhost:1337, появляется страница с формой загрузки изображения на сайт.
 <p align="center">
- <img width="1000px" src="screenshots/chose-img.JPG" alt="chose-img"/>
+ <img width="1200px" src="screenshots/chose-img.JPG" alt="chose-img"/>
 </p>
 
 Подгружаем файл-изображение.
 <p align="center">
- <img width="1000px" src="screenshots/upload-file.JPG" alt="upload-file"/>
+ <img width="1200px" src="screenshots/upload-file.JPG" alt="upload-file"/>
 </p>
 
 Для его просмотра переходим по ссылке:
 http://localhost:1337/media/IMAGE_FILE_NAME.
 <p align="center">
- <img width="1000px" src="screenshots/open-file.JPG" alt="open-file"/>
+ <img width="1200px" src="screenshots/open-file.JPG" alt="open-file"/>
 </p>
 
 Так же у нас есть возможность входа в панель администратора Django.
 <p align="center">
- <img width="1000px" src="screenshots/login.JPG" alt="login"/>
+ <img width="1200px" src="screenshots/login.JPG" alt="login"/>
 </p>
 
 Окружение самой панели.
 <p align="center">
- <img width="1000px" src="screenshots/autorisation.JPG" alt="autorisation"/>
+ <img width="1200px" src="screenshots/autorisation.JPG" alt="autorisation"/>
 </p>
