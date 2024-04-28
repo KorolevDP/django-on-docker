@@ -22,7 +22,7 @@
 ##  Подтверждение работоспособности проекта. 
 Контейнеры из файла docker-compose.prod.yml собрались и запустились. 
 <p align="center">
- <img width="1200px" src="screenshots/docker-ps.JPG" alt="docker-ps"/>
+ <img width="1300px" src="screenshots/docker-ps.JPG" alt="docker-ps"/>
 </p>
 
 Переходим по ссылке http://localhost:1337, появляется страница с формой загрузки изображения на сайт.
